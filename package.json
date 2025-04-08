@@ -1,0 +1,21 @@
+{
+  "name": "chattersphere",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [],
+  "author": "rishabh-ml",
+  "license": "ISC",
+  "type": "commonjs"
+}
